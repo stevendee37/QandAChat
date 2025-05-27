@@ -1,0 +1,46 @@
+.main-container{
+    display: flex;
+    align-items: center;
+}
+
+.login-container{
+    display: flex;
+    width: 250px;
+    height: 200px;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 12px;
+    flex-direction: column;
+}
+
+.login-register{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-button{
+    margin-top: 5px;
+    width: 75px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 11px;
+    border: 1px solid white;
+    background-color: #356adb;
+    color: white;
+}
+
+.login-register-link{
+    margin-top: 5px;
+    width: 150px;
+    height: 20px;
+    font-size: 10px;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: blue;
+}
+
+.login-register-link:hover{
+    color: lightblue;
+    cursor: pointer;
+}
